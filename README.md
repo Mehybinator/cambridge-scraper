@@ -133,4 +133,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[Python-shield]: https://img.shields.io/badge/Python-FFFFFF?logo=python
+[Python-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [product-screenshot]: images/screenshot.png
