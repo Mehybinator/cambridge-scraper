@@ -111,18 +111,9 @@ Mehran Arkak - mehran.arkak@protonmail.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [Python]: https://img.shields.io/badge/Python-FFFFFF?logo=python
-[Python-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [Pydub]: https://img.shields.io/badge/Pydub-FFFFFF?logo=python
-[Pydub-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [CustomTkinter]: https://img.shields.io/badge/CustomTkinter-FFFFFF?logo=python
-[CustomTkinter-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [BeautifulSoup]: https://img.shields.io/badge/BeautifulSoup-FFFFFF?logo=python
-[BeautifulSoup-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [requests]: https://img.shields.io/badge/requests-FFFFFF?logo=python
-[Requests-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [product-screenshot]: screenshot.png
