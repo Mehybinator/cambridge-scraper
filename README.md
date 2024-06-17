@@ -52,11 +52,11 @@ This Project Was Made To Help Ease The Proccess of Downloading Audio For Your En
 
 This Project Uses Requests for HTTP Requests and Beautiful Soup for Scraping html Documents and Pydub for Audio Manipulation with CustomTkinter As Its UI.
 
-* [![Python][Python]][Python-url]
-* [![Pydub][Pydub]][Pydub-url]
-* [![CustomTkinter][CustomTkinter]][CustomTkinter-url]
-* [![BeautifulSoup][BeautifulSoup]][BeautifulSoup-url]
-* [![requests][Requests]][Requests-url]
+* ![Python][Python]
+* ![Pydub][Pydub]
+* ![CustomTkinter][CustomTkinter]
+* ![BeautifulSoup][BeautifulSoup]
+* ![requests][Requests]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
