@@ -1,23 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+<a id="readme-top"></a>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -60,30 +41,21 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot]
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This Project Was Made To Help Ease The Proccess of Downloading Audio For Your English Lessons.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This Project Uses Requests for HTTP Requests and Beautiful Soup for Scraping html Documents and Pydub for Audio Manipulation with CustomTkinter As Its UI.
 
 * [![Python][Python]][Python-url]
 * [![Pydub][Pydub]][Pydub-url]
 * [![CustomTkinter][CustomTkinter]][CustomTkinter-url]
-* [![BeautifulSoup][BeautifulSoup4]][BeautifulSoup-url]
+* [![BeautifulSoup][BeautifulSoup]][BeautifulSoup-url]
 * [![requests][Requests]][Requests-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,7 +65,19 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ### Prerequisites
 
-First of all, Create A Python Environment:
+Pydub Requires ffmpeg Installed, So Make Sure To Install It:
+* Windows
+  * Scoop
+    ```sh
+    scoop install ffmpeg
+    ```
+  * Chocolatey
+    ```sh
+    choco install ffmpeg
+    ```
+
+
+Create A Python Environment:
   ```sh
   python -m venv env
   ```
@@ -122,9 +106,7 @@ Alternatively If The Env Is Not Active:
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Mehran Arkak - mehran.arkak@protonmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,6 +115,14 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[Python-shield]: https://img.shields.io/badge/Python-FFFFFF?logo=python
+[Python]: https://img.shields.io/badge/Python-FFFFFF?logo=python
 [Python-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[product-screenshot]: images/screenshot.png
+[Pydub]: https://img.shields.io/badge/Pydub-FFFFFF?logo=python
+[Pydub-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[CustomTkinter]: https://img.shields.io/badge/CustomTkinter-FFFFFF?logo=python
+[CustomTkinter-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[BeautifulSoup]: https://img.shields.io/badge/BeautifulSoup-FFFFFF?logo=python
+[BeautifulSoup-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[requests]: https://img.shields.io/badge/requests-FFFFFF?logo=python
+[Requests-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[product-screenshot]: screenshot.png
