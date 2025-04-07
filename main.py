@@ -18,7 +18,12 @@ class MainWindow(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.iconbitmap("favicon.ico")
+        if hasattr(sys, '_MEIPASS'):
+            icon_path = os.path.join(sys._MEIPASS, "favicon.ico")
+        else:
+            icon_path = os.path.abspath("favicon.ico")
+
+        self.iconbitmap(icon_path)
         self.title("Dictionary Voice Scraper")
         self.geometry("700x400")
         self.resizable(False, False)
