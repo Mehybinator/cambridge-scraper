@@ -103,6 +103,12 @@ Alternatively If The Env Is Not Active:
   env\Scripts\python main.py
   ```
 
+### Compiling to a binary
+Running the following command should compile the app to a binary format, a ".exe" for instance:
+  ```sh
+  pyinstaller main.spec
+  ```
+
 <!-- CONTACT -->
 ## Contact
 
